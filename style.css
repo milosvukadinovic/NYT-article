@@ -1,50 +1,64 @@
-
-header{
-    width: 100%;
-    height: 35px;
-    position: fixed;
-    text-align: center;
-    
-}
-.NYT-logo{
+header {
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
     display: block;
-    width: 189px;
-    height: 26px;
-    margin: 5px auto 0;
-    text-align: center;
-
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
 }
-.header-full{
-    width: 100%;
-    height: 35px;
-    
-    
-    
-}
-.rectangle-menu{
-    float: left;
-    width: 15px;
-    height: 15px;
-    }
-.header-padding{
-    size:inherit;
-    height: 35px;
-}
-/* .subscribe-today{
-    color: rgb(50, 104, 145);
+a {
     text-decoration: none;
-} */
-/* .side-links{
-    font-size: 10px;
-    margin-left: auto;
+    color: black;
+}
+
+
+
+.header-left-icon {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    /* vertical-align: sub; */
+    margin-top: 6px;
+    margin-left: 16px;
+}
+
+.header-text {
+    font-size: 14.25px;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 700;
     text-transform: uppercase;
-    display: block;
+    letter-spacing: 0.7px;
+    line-height: 19px;
+}
+.header-text:hover{
+    text-decoration: underline;
+}
+
+.header-logo-container{
+    text-align: center;
+    display: inline-block;
+       /* float: left;
+       position: relative;
+       left: 50%; */
+}
+
+.header-right-button{
+    right: 10px;
+    display: inline;
     float: right;
-} */
-/* .side-buttons{
+
+}
+
+.btn-header{
+    margin: 8px;
     border-radius: 3px;
     cursor: pointer;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin,
+    helvetica,
+    arial,
+    sans-serif;
     -webkit-transition: ease 0.6s;
     transition: ease 0.6s;
     background-color: #6288a5;
@@ -58,19 +72,17 @@ header{
     letter-spacing: 0.05em;
     line-height: 11px;
     padding: 8px 9px 6px;
-    text-transform: uppercase; */
+    text-transform: uppercase;
+    
 }
-/* .search-button{
-    color: #000;
-    font-size: 11px;
-    font-weight: 700;
-    transition: ease 0.6s;
-    border-radius: 3px;
-    cursor: pointer;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
-    padding: 8px 9px 9px;
-    letter-spacing: 0.02em;
-    border: 0;
-    display: inline-block;
-} */
+/* Body Section */
 
+.title-container{
+    text-align: center;
+   
+}
+.title-text{
+    display: inline-block;
+    max-width: 345.922px;
+    color: #121212;
+}
