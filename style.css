@@ -8,12 +8,15 @@ header {
     padding-right: 16px;
     padding-bottom: 16px;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
 
-
+.font {
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+}
 
 .header-left-icon {
     width: 16px;
@@ -26,39 +29,40 @@ a {
 
 .header-text {
     font-size: 14.25px;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.7px;
     line-height: 19px;
 }
-.header-text:hover{
+
+.header-text:hover {
     text-decoration: underline;
 }
 
-.header-logo-container{
+.header-logo-container {
     text-align: center;
     display: inline-block;
-       /* float: left;
+    /* float: left;
        position: relative;
        left: 50%; */
 }
 
-.header-right-button{
+.header-right-button {
     right: 10px;
     display: inline;
     float: right;
 
 }
 
-.btn-header{
+.btn-header {
     margin: 8px;
     border-radius: 3px;
     cursor: pointer;
     font-family: nyt-franklin,
-    helvetica,
-    arial,
-    sans-serif;
+        helvetica,
+        arial,
+        sans-serif;
     -webkit-transition: ease 0.6s;
     transition: ease 0.6s;
     background-color: #6288a5;
@@ -73,26 +77,123 @@ a {
     line-height: 11px;
     padding: 8px 9px 6px;
     text-transform: uppercase;
-    
+
 }
+
 /* Body Section */
 
-.title-container{
+.title-container {
     text-align: center;
-   
+
 }
-.title-text{
+
+.title-text {
     display: inline-block;
     max-width: 345.922px;
     color: #121212;
 }
-.author-text{
-    
+
+.author-text {
     color: #333;
-    
+    display: inline;
 }
-.body-article{
+
+.body-article {
     padding-left: 330px;
     padding-right: 330px;
     /* text-align: center; */
+}
+
+/* Article text section */
+.article-text {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    margin-right: 7px;
+    color: #666;
+    font-family: nyt-imperial,
+        georgia,
+        'times new roman',
+        times,
+        serif;
+}
+
+.div-text {
+    margin-bottom: 1.25rem;
+}
+
+.p-text {
+    font-size: 1.1875rem;
+    line-height: 1.8125rem;
+}
+
+div .in-ic {
+    display: inline;
+
+}
+
+.right-ic {
+    display: inline;
+    float: right;
+}
+
+.background-ic {
+    /* width: 15px;
+    height: 15px; */
+    padding: 5px;
+    margin: 12px;
+    border: 1px #eee solid;
+    background-color: #eee;
+    border-radius: 100%;
+}
+
+.background-ic:hover {
+    background-color: white;
+}
+
+.article-img {
+    height: auto;
+    max-width: 100%;
+}
+
+.article-video {
+    width: 800px;
+    height: 600px;
+}
+
+.article-video-text {
+    color: #666;
+}
+
+.btn-comment {
+font-size: .8125rem;
+line-height: 1.125rem;
+font-family: nyt-franklin,
+helvetica,
+arial,
+sans-serif;
+border: 1px solid #326891;
+border-radius: 3px;
+color: #fff;
+display: inline;
+font-weight: 600;
+letter-spacing: .05em;
+line-height: 1.5rem;
+padding: 5px 0;
+text-transform: uppercase;
+width: 330px;
+background-color: #6288a5;
+-webkit-transition: background-color .6s ease;
+transition: background-color .6s ease;
+}
+
+.version-text{
+    font-size: 0.75rem;
+    color: #999;
+    line-height: 1rem;
+    max-width: 630px;
+    margin-bottom: 24px;
+}
+
+.footer-item{
+    display: inline;
 }
