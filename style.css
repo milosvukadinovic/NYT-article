@@ -86,3 +86,13 @@ a {
     max-width: 345.922px;
     color: #121212;
 }
+.author-text{
+    
+    color: #333;
+    
+}
+.body-article{
+    padding-left: 330px;
+    padding-right: 330px;
+    /* text-align: center; */
+}
