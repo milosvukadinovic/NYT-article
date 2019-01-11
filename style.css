@@ -8,6 +8,13 @@ header {
     padding-right: 16px;
     padding-bottom: 16px;
 }
+footer{
+    margin-top:16px;
+    width: 100%;
+    border-top:solid #e2e2e2 1px;
+    text-align: center;
+
+}
 
 a {
     text-decoration: none;
@@ -16,15 +23,19 @@ a {
 
 .font {
     font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    
 }
 
 .header-left-icon {
-    width: 16px;
     height: 16px;
     display: inline;
-    /* vertical-align: sub; */
     margin-top: 6px;
     margin-left: 16px;
+    float:left;
+}
+.header{
+    text-align: center;
+    
 }
 
 .header-text {
@@ -43,9 +54,7 @@ a {
 .header-logo-container {
     text-align: center;
     display: inline-block;
-    /* float: left;
-       position: relative;
-       left: 50%; */
+    
 }
 
 .header-right-button {
@@ -101,7 +110,7 @@ a {
 .body-article {
     padding-left: 330px;
     padding-right: 330px;
-    /* text-align: center; */
+    
 }
 
 /* Article text section */
@@ -137,8 +146,7 @@ div .in-ic {
 }
 
 .background-ic {
-    /* width: 15px;
-    height: 15px; */
+    
     padding: 5px;
     margin: 12px;
     border: 1px #eee solid;
@@ -156,8 +164,8 @@ div .in-ic {
 }
 
 .article-video {
-    width: 800px;
-    height: 600px;
+    width: 600px;
+    height: 400px;
 }
 
 .article-video-text {
@@ -194,6 +202,17 @@ transition: background-color .6s ease;
     margin-bottom: 24px;
 }
 
-.footer-item{
+.footer-link{
     display: inline;
+    font-size:12px;
+    
+    
+    
+}
+.footer-link a{
+    color: rgb(153, 153, 153);
+    
+}
+.footer-link a:hover{
+    text-decoration: underline;
 }
