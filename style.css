@@ -3,10 +3,7 @@ header {
     border-bottom: 1px solid #e2e2e2;
     display: block;
     margin: 0;
-    padding: 0;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
+    padding: 0 16px 16px;
 }
 footer{
     margin-top:16px;
@@ -136,7 +133,8 @@ a {
 }
 
 div .in-ic {
-    display: inline;
+    display: inline-block;
+    margin: 0 auto;
 
 }
 
@@ -161,6 +159,10 @@ div .in-ic {
 .article-img {
     height: auto;
     max-width: 100%;
+    margin: 0 auto;
+}
+.inside-article-img-container{
+    text-align: center;
 }
 
 .article-video {
@@ -174,7 +176,6 @@ div .in-ic {
 
 .btn-comment {
 font-size: .8125rem;
-line-height: 1.125rem;
 font-family: nyt-franklin,
 helvetica,
 arial,
@@ -202,6 +203,87 @@ transition: background-color .6s ease;
     margin-bottom: 24px;
 }
 
+.more-articles{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 2%;
+}
+.more-articles .more-header{
+    border-top: 1px solid #ccc;
+    
+}
+.more-header h2{
+    display: inline-block;
+    padding: 0;
+}
+.more-header a{
+    color: #6288a5;
+    display: inline-block;
+    font-family: 'Libre Franklin', georgia, 'Times New Roman';
+    font-size: 10px;
+    text-align: right;
+    vertical-align: middle;
+    float: right;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.more-articles .more-items .more-item{
+    width: 30%;
+    margin: 8px;
+    display: inline-block;
+}
+
+.more-item h5{
+
+}
+.trending-articles{
+    border-top: 1px solid #ccc;
+    display: inline-block;
+    height: 300px;
+    margin-left: 5%;
+    vertical-align: top;
+    width: 32%;
+    margin-top: 30px;
+}
+.trending-articles h5{
+    margin: 10px 0;
+}
+.trending-articles ul{
+    font-family: 'Times New Roman',georgia;
+    list-style: none;
+
+}
+.trending-articles li{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+.trending-articles p{
+    display: inline-block;
+    color: #326891;
+    font-size: 14px;
+}
+.trending-articles img{
+    float: right;
+    height: 40px;
+    text-align: right;
+    width: 40px;
+
+}
+.trending-articles .ar-counter{
+    line-height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    width: 20px;
+    font-size: 24px;
+}
+
+.trending-articles li{
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
 .footer-link{
     display: inline;
     font-size:12px;
