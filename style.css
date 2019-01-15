@@ -216,3 +216,46 @@ transition: background-color .6s ease;
 .footer-link a:hover{
     text-decoration: underline;
 }
+.aside{
+    display:block;
+    float: right;
+    margin-top: 50%;
+}
+.aside div{
+    width: 250px;
+}
+.aside div span{
+    text-align: left;
+}
+.aside ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.horizontal-line{
+    background-color: #7f8c8d;
+    width: 100%;
+    height: 1px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    opacity: 0.55;
+}
+.side-bar{
+    height:210 px;
+    width: 100%;
+    float: left;
+}
+.h3-text{
+    font-size: 70%;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+    
+}
+.aside ul a{
+    text-decoration: none;
+}
+.h3-text:hover{
+    text-decoration: underline;
+}
