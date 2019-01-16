@@ -212,7 +212,7 @@ transition: background-color .6s ease;
 }
 .more-articles .more-header{
     border-top: 1px solid #ccc;
-    
+    clear:left;
 }
 .more-header h2{
     display: inline-block;
@@ -228,16 +228,30 @@ transition: background-color .6s ease;
     float: right;
     margin-top: 24px;
     margin-right: 24px;
+    
 }
 
 .more-articles .more-items .more-item{
     width: 30%;
     margin: 8px;
     display: inline-block;
+    
+    
+
+}
+.more-items{
+    width: 100%;
+}
+.more-item{
+    width: 30%;
+    float: left;
 }
 
-.more-item h5{
+.more-itemZ {
 
+    margin: 8px;
+    display: inline-block;
+    width: 90%;
 }
 .trending-articles{
     border-top: 1px solid #ccc;
@@ -247,6 +261,8 @@ transition: background-color .6s ease;
     vertical-align: top;
     width: 32%;
     margin-top: 30px;
+    text-decoration: none;
+    color:black;
 }
 .trending-articles h5{
     margin: 10px 0;
@@ -340,4 +356,10 @@ transition: background-color .6s ease;
 }
 .h3-text:hover{
     text-decoration: underline;
+}
+.link p{
+    text-decoration: none;
+    color:black;
+    font-size: 120%;
+
 }
