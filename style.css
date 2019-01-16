@@ -341,3 +341,51 @@ transition: background-color .6s ease;
 .h3-text:hover{
     text-decoration: underline;
 }
+.f-header{
+    border-top: 2px solid #e2e2e2;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.f-sections{
+    margin: auto 0;
+}
+.f-section{
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+    width: 14%;
+    padding: 8px;
+}
+.f-section h5{
+    text-align: left;
+    padding-left: 36px;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.f-section ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 36px;
+}
+.sub-section{
+    border-left: 1px solid #ccc;
+}
+.sub-section h6{
+    font-size: 16px;    
+    margin: 5px;
+
+
+}
+.sub-middle {
+    border-bottom: 1px solid #ccc;
+}
+.svg-ic{
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
